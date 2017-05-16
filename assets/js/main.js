@@ -7,7 +7,10 @@ function principal(){
 	load.addEventListener("load", function(){
 		alert("Está cargada");
 	});
-
+	var sobre = document.getElementById("cajita");
+	sobre.addEventListener("mouseout", function(){
+		alert("No estás sobre mí");
+	});
 
 }
 principal();
